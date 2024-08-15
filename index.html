@@ -415,7 +415,7 @@
             <img src="static/images/our_new_3_datasets.png" alt="geometric reasoning" width="70%"/>
             <p> Examples of our newly annotated datasets: IQTest, FunctionQA, and PaperQA.</p>
           </div> -->
-
+          
           <p>
             We sampled source multi viewpoint images from three existing 3D datasets:
             <!-- @PAN TODO: add download links -->
@@ -501,21 +501,25 @@
     <div class="content has-text-justified">
       <div class="content has-text-centered">
         <img src="static/images/omniview-fig/fig-5.1.png" alt="geometric reasoning" width="70%"/>
-        <p> <b>Configurations of OVT and zero-shot Top-1 accuracy (%) on
-          ImageNet-1K with ImageNet-V+.</b> </p> <p> The number in parentheses shows the performance change relative to the pre-trained weights. Through OVT training, each model
-          maintains the performance on ImageNet-1K (IN-1K) while significantly improving the
-          performance on ImageNet-V+ (IN-V+.), narrowing the performance gap. </p>
+        <div style="width: 70%; margin: 0 auto;">
+          <p><b>Configurations of OVT and zero-shot Top-1 accuracy (%) on
+            ImageNet-1K with ImageNet-V+.</b></p>
+          <p>The number in parentheses shows the performance change relative to the pre-trained weights. Through OVT training, each model
+            maintains the performance on ImageNet-1K (IN-1K) while significantly improving the
+            performance on ImageNet-V+ (IN-V+.), narrowing the performance gap.</p>
+        </div>
       </div>
 
 
         <div class="content has-text-justified">
           <div class="content has-text-centered">
             <img src="static/images/omniview-fig/fig-5.2.png" alt="geometric reasoning" width="70%"/>
+            <div style="width: 70%; margin: 0 auto;">
             <p> <b>Top-1/Top-5 zero-shot accuracy (%) under different benchmarks.</b> </p> <p>  OVT significantly enhances the models' invariance to Viewpoint-OOD samples. 
               Across different VLP architectures and visual encoders, OVT-trained models perform best on almost all viewpoint-OOD benchmarks. On the average accuracy of viewpoint-OOD datasets, OVT-OpenCLIP with ViT-B/32, ViT-B/16,
               and ViT-L/14 shows improvements of 9.6%, 10.2%, and 8.9% over OpenCLIP,
               respectively. OVT-BLIP demonstrated an average improvement of 8.6%. </p>
-          </div>
+          </div></div>
       
           <div class="hero-body has-text-centered">
             <h1 class="title is-3">Results of Image Caption & VQA Tasks</h1>
@@ -545,11 +549,12 @@
               <div class="content has-text-justified">
                 <div class="content has-text-centered">
                   <img src="static/images/omniview-fig/fig-5.5.png" alt="geometric reasoning" width="70%"/>
+                  <div style="width: 70%; margin: 0 auto;">
                   <p> <b>Image captioning performance under clean distribution samples and
                     viewpoint-OOD samples from Real-world and Synthetic domains.</b> We utilize the MPNet to calculate the similarity between generated descriptions and ground-truth
                     labels, considering predictions successful if they exceed the similarity threshold β.
                     </p>
-                </div>
+                </div></div>
   </div>
 </section>
 
